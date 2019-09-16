@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<nav class="navbar bg-white py-3">
+  <div class="container">
+    <ol class="breadcrumb bg-transparent p-0 mb-0">
+      <li class="breadcrumb-item"><a href="/">Home</a></li>
+      <li class="breadcrumb-item active">Blogger Snippets</li>
+    </ol>
+  </div>
+</nav>
+
+<div class="container my-5">
+  <p class="lead">{{ page.description }}</p>
+  <div class="card">
+    <h1 class="card-header h6">Blogger Snippets</h1>
+    {{ content }}
+  </div>
+
+  <div class="alert alert-info mt-3" role="alert">
+    Other snippets coming soon!
+  </div>
+</div>

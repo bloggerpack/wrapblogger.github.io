@@ -1,0 +1,17 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<link rel="icon" href="{{ site.baseurl }}/favicon.ico" type="image/x-icon">
+<link rel="icon" sizes="32x32" href="{{ site.baseurl }}/favicon-32x32.png" type="image/png">
+<link rel="icon" sizes="16x16" href="{{ site.baseurl }}/favicon-16x16.png" type="image/png">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/apple-touch-icon.png">
+
+<title>
+  {% if page.title %}
+    {{ page.title | smartify }} · {{ site.title | smartify }}
+  {% else %}
+    {{ site.title | smartify }}
+  {% endif %}
+</title>
+
+<meta name="description" content="{{ page.description | default: site.description | smartify | strip_html }}">

@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<nav class="navbar bg-white py-3">
+  <div class="container">
+    <ol class="breadcrumb bg-transparent p-0 mb-0">
+      <li class="breadcrumb-item"><a href="/">Home</a></li>
+      <li class="breadcrumb-item active">{{ page.title }}</li>
+    </ol>
+  </div>
+</nav>
+
+<div class="container my-5">
+  <div class="card">
+    <div class="card-header">
+      <div class="row d-flex align-items-center">
+        <div class="col"><small>{{ page.path | split: "/" | last }}</small></div>
+        <div class="col-auto"><a class="btn btn-primary btn-sm" href="{{ page.edit }}" role="button">Edit</a></div>
+      </div>
+    </div>
+    <div class="card-body markdown-body">
+      <h1>{{ page.title }}</h1>
+      {{ content }}
+    </div>
+  </div>
+</div>
+
+{% include fixed-toc.html %}

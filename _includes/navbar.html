@@ -1,0 +1,28 @@
+<nav class="navbar navbar-expand-lg{% if page.layout == 'home' %} navbar-light bg-white{% else %} navbar-dark bg-dark{% endif %}">
+  <div class="container">
+    <a class="navbar-brand" href="/">{WB}</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Themes <small>(coming soon)</small></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/wrapblogger">GitHub</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown">
+            More
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="https://facebook.com/wrapblogger">Facebook</a>
+            <a class="dropdown-item" href="https://twitter.com/wrapblogger">Twitter</a>
+          </div>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container -->
+</nav><!-- /.navbar -->
