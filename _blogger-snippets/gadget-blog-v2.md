@@ -7,6 +7,14 @@ toc: true
 
 > Blog Posts gadget `v2`.
 
+**Use the snippets within `b:loop` tag:**
+
+```xml
+<b:loop values='data:posts' var='post'>
+  ...
+</b:loop>
+```
+
 ## Author name
 
 Name of the profile of the post author.
