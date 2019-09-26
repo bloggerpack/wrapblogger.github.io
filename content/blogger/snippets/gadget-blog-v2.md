@@ -1,8 +1,9 @@
 ---
 title: Blog Posts Gadget v2
 description: Blog Posts gadget v2.
-edit: https://github.com/wrapblogger/wrapblogger.github.io/blob/master/_blogger-snippets/gadget-blog-v2.md
 toc: true
+layout: docs-single
+permalink: /blogger/snippets/gadget-blog-v2/
 ---
 
 > Blog Posts gadget `v2`.

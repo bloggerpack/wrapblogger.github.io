@@ -14,18 +14,6 @@ exclude:
   - Gemfile.lock
   - README.md
 
-collections:
-  blogger-snippets:
-    output: true
-    permalink: "/blogger-snippets/:path/"
-
-defaults:
-  - scope:
-      path: ""
-      type: blogger-snippets
-    values:
-      layout: blogger-snippets-single
-
 plugins:
   - jekyll-redirect-from
   - jekyll-sitemap

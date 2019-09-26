@@ -1,8 +1,9 @@
 ---
 title: Page types
 description: Conditional tags for different page types, which allows you to specify a part of your template code on specific types of pages or specific URLs.
-edit: https://github.com/wrapblogger/wrapblogger.github.io/blob/master/_blogger-snippets/page-types.md
 toc: true
+layout: docs-single
+permalink: /blogger/snippets/page-types/
 ---
 
 Conditional tags for different page types, which allows you to specify a part of your template code on specific types of pages or specific URLs.

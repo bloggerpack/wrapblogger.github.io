@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-lg{% if page.layout == 'home' %} navbar-light bg-white{% else %} navbar-dark bg-dark{% endif %}">
+<nav class="navbar navbar-expand-lg shadow-sm{% if include.class %} {{ include.class }}{% endif %}"{% if include.style %} style="{{ include.style }}"{% endif %}>
   <div class="container">
-    <a class="navbar-brand" href="/">{WB}</a>
+    <a class="navbar-brand" href="{{ site.baseurl }}/">{WB}</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
       <span class="navbar-toggler-icon"></span>
     </button>
